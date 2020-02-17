@@ -1,4 +1,4 @@
-def position_taken(board, input)
+def position_taken?(board, input)
   if (board[input] == " " || board[input] == "")
     return false
   else
